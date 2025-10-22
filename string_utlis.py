@@ -5,6 +5,6 @@ def reverse_string(string):
 
 
 def is_palindrome(string):
-    if string == reverse_string(string):
+    if string == string[::-1]:
         return ("its a palindrome")
     else: return ("its not a palindrome")
